@@ -700,3 +700,321 @@ body {
   line-height: 22px;
   color: #999999;
 }
+
+.kickscooter-overview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: auto;
+  background: #F5F5F5;
+}
+
+.kickscooter-overview-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 907px;
+  height: 120px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 119.3%;
+  text-transform: uppercase;
+  color: #323941;
+  margin-top: 80px;
+}
+
+.smart-bms {
+  position: relative;
+  display: flex;
+  width: 1376px;
+  height: 547px;
+  background: #0E0E16;
+  background-image: url(/images/smart-bms/smart-bms-background.png);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.smart-bms-header {
+  position: absolute;
+  width: 553px;
+  height: 180px;
+  left: 207px;
+  top: 153px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 119.3%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.smart-bms-description {
+  position: absolute;
+  width: 558px;
+  height: 44px;
+  left: 212px;
+  top: 369px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.smart-bms-blur-filter {
+  position: absolute;
+  width: 455px;
+  height: 455px;
+  left: -287px;
+  top: 201px;
+  background: #3A75F7;
+  opacity: 0.2;
+  filter: blur(155.5px);
+}
+
+.dual-braking-system {
+  position: relative;
+  display: flex;
+  width: 1376px;
+  height: 547px;
+  background: #FFFFFF;
+  background-image: url(/images/dual-braking-system/dual-braking-system-background.png);
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.dual-braking-system-header {
+  position: absolute;
+  width: 375px;
+  height: 120px;
+  left: 768px;
+  top: 150px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 119.3%;
+  text-transform: uppercase;
+  color: #323941;
+}
+
+.dual-braking-system-description {
+  position: absolute;
+  width: 364px;
+  height: 110px;
+  left: 768px;
+  top: 288px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #323941;
+}
+
+.led-light {
+  position: relative;
+  display: flex;
+  width: 1376px;
+  height: 547px;
+  background: #0E0E16;
+  background-image: url(/images/led-light/led-light-background.png);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.led-light-header {
+  position: absolute;
+  width: 387px;
+  height: 120px;
+  left: 205px;
+  top: 150px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 119.3%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.led-light-description {
+  position: absolute;
+  width: 596px;
+  height: 70px;
+  left: 205px;
+  top: 300px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.led-light-disclaimer {
+  position: absolute;
+  width: 596px;
+  height: 110px;
+  left: 205px;
+  top: 398px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #6C6C6C;
+}
+
+.led-light-blur-filter {
+  position: absolute;
+  width: 455px;
+  height: 455px;
+  left: -287px;
+  top: 24px;
+  background: #3A75F7;
+  opacity: 0.2;
+  filter: blur(155.5px);
+}
+
+.folding-mechanism {
+  position: relative;
+  display: flex;
+  width: 1376px;
+  height: 668px;
+  background: #FFFFFF;
+}
+
+.folding-mechanism-header {
+  position: absolute;
+  width: 1024px;
+  height: 60px;
+  left: 176px;
+  top: 75px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+  line-height: 119.3%;
+  text-transform: uppercase;
+  color: #323941;
+}
+
+.folding-mechanism-description {
+  position: absolute;
+  width: 980px;
+  height: 22px;
+  left: 198px;
+  top: 180px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  line-height: 22px;
+  color: #323941;
+}
+
+.folding-mechanism-image {
+  position: absolute;
+  width: 840.46px;
+  height: 388px;
+  left: 267.27px;
+  top: 240px;
+}
+
+.regenerative-brake {
+  position: relative;
+  display: flex;
+  width: 1376px;
+  height: 547px;
+  background: #0E0E16;
+  background-image: url(/images/regenerative-brake/regenerative-brake-backgrouund.png);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.regenerative-brake-header {
+  position: absolute;
+  width: 808px;
+  height: 120px;
+  left: 207px;
+  top: 67px;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 119.3%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.regenerative-brake-description {
+  position: absolute;
+  width: 601px;
+  height: 88px;
+  left: 207px;
+  top: 205px;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.regenerative-brake-blur-filter {
+  position: absolute;
+  width: 455px;
+  height: 455px;
+  left: -350px;
+  top: 168px;
+  background: #3A75F7;
+  opacity: 0.2;
+  filter: blur(155.5px);
+}
+
+
+
+
+
+.fast-charging {
+  position: relative;
+  display: flex;
+  width: 1376px;
+  height: 547px;
+  background: #FFFFFF;
+  background-image: url(/images/fast-charging/fast-charging-background.png);
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.fast-charging-header {
+  position: absolute;
+  width: 408px;
+  height: 120px;
+  left: 768px;
+  top: 161px;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 119.3%;
+  text-transform: uppercase;
+  color: #323941;
+}
+
+.fast-charging-description {
+  position: absolute;
+  width: 397px;
+  height: 88px;
+  left: 768px;
+  top: 299px;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #323941;
+}
