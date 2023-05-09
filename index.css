@@ -973,10 +973,6 @@ body {
   filter: blur(155.5px);
 }
 
-
-
-
-
 .fast-charging {
   position: relative;
   display: flex;
@@ -1017,4 +1013,72 @@ body {
   font-size: 18px;
   line-height: 22px;
   color: #323941;
+}
+
+
+
+
+
+.riding-modes {
+  position: relative;
+  display: flex;
+  width: 1376px;
+  height: 547px;
+  background: #0E0E16;
+  background-image: url(/images/riding-modes/riding-modes-background.png);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.riding-modes-header {
+  position: absolute;
+  width: 399px;
+  height: 60px;
+  left: 210px;
+  top: 191px;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 119.3%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.riding-modes-description {
+  position: absolute;
+  width: 417px;
+  height: 88px;
+  left: 210px;
+  top: 269px;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.riding-modes-blur-filter-left {
+  position: absolute;
+  width: 455px;
+  height: 455px;
+  left: -350px;
+  top: 186px;
+  background: #3A75F7;
+  opacity: 0.2;
+  filter: blur(155.5px);
+}
+
+.riding-modes-blur-filter-right {
+  position: absolute;
+  width: 711px;
+  height: 711px;
+  left: 744px;
+  top: 213px;
+  background: #3A75F7;
+  opacity: 0.2;
+  filter: blur(155.5px);
 }
