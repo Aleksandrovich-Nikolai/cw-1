@@ -701,13 +701,15 @@ body {
   color: #999999;
 }
 
+/* .kickscooter-overview* - section not completed - not enough material */
+
 .kickscooter-overview {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   width: auto;
-  background: #F5F5F5;
+  background: #ffffff;
 }
 
 .kickscooter-overview-header {
@@ -724,6 +726,25 @@ body {
   text-transform: uppercase;
   color: #323941;
   margin-top: 80px;
+}
+
+.kickscooter-overview-scheme {
+  position: relative;
+  width: 1376px;
+  height: 561px;
+}
+
+.kickscooter-overview-image {
+  position: absolute;
+  width: 958px;
+  height: 561px;
+  left: 211px;
+}
+
+.kickscooter-overview-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .smart-bms {
@@ -1015,10 +1036,6 @@ body {
   color: #323941;
 }
 
-
-
-
-
 .riding-modes {
   position: relative;
   display: flex;
@@ -1082,3 +1099,35 @@ body {
   opacity: 0.2;
   filter: blur(155.5px);
 }
+
+.download-manual {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+
+  width: 1376px;
+  height: 547px;
+  background: #F5F5F5;
+}
+.download-manual-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: center;
+  gap: 10px;
+  width: 960px;
+  height: 317px;
+  background: #FFFFFF;
+  border: 5px solid #009EFF;
+}
+
+.download-manual-cell {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  width: 180px;
+  height: 64px;
+  border: 1px solid black;
+}
+
