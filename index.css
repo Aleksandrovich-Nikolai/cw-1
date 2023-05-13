@@ -6,6 +6,8 @@
 * {
   box-sizing: border-box;
   font-family:'Proxima Nova Regular';
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -1103,31 +1105,83 @@ body {
 .download-manual {
   display: flex;
   flex-direction: row;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
-
   width: 1376px;
   height: 547px;
   background: #F5F5F5;
 }
+
 .download-manual-container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content:center;
-  align-items: center;
-  gap: 10px;
-  width: 960px;
+  flex-direction: row;
+  justify-content: left;
+  align-items:flex-start;
+  width: 1060px;
   height: 317px;
   background: #FFFFFF;
   border: 5px solid #009EFF;
 }
 
-.download-manual-cell {
+.download-manual-block {
   display: flex;
-  justify-content:center;
-  align-items: center;
-  width: 180px;
-  height: 64px;
-  border: 1px solid black;
+  flex-direction: column;
 }
 
+.manual-image {
+  position: relative;
+  width: 400px;
+  top: -30px;
+  left: -210px;
+}
+
+.download-manual-header {
+  width: 300px;
+  height: 120px;
+  margin: 20px 0px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 119.3%;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #323941;
+}
+
+.download-manual-block-cell {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.download-manual-block-subcell {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  justify-content: left;
+  align-items:center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 119.3%;
+  color: #323941;
+}
+
+.download-manual-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center;
+  width: 258px;
+  height: 48px;
+  margin: 30px 0px;
+  background: #009EFF;
+  border: 5px solid #009EFF;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
