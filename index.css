@@ -1417,6 +1417,62 @@ body {
   right: -74px;
 }
 
+.smart-control {
+  width: 1376px;
+  height: 774px;
+}
+
+.smart-control-header {
+  padding-top: 64px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 119.3%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.smart-control-description {
+  width: 810px;
+  margin: auto;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #323941;
+}
+
+.smart-control-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+}
+
+.smart-control-container-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.smart-control-container-subcolumn-icon {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.smart-control-container-subcolumn-pay {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-items: center;
+  align-items: center;
+}
+
 
 
 
