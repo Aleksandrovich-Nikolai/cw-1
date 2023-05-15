@@ -1697,8 +1697,20 @@ margin-left: 200px;
 }
 
 
-.bottom-space {
+.footer {
+  display: grid;
+  column-gap: 16px;
+  grid-template-columns: repeat(2, 0.8fr) 0.5fr 1fr 1fr;
+  align-items: center;
   width: 1376px;
-  height: 400px;
-  background-color: #9dfcdf;
+  height: 92px;
+  background: #32393F;
+  color: white;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: right;
+  align-content: end;
+  mar
 }
