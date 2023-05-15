@@ -1526,6 +1526,176 @@ margin-left: 200px;
   top: 246px;
 }
 
+.other-models {
+  text-align: center;
+  width: 1376px;
+  height: 1000px;
+}
+
+.other-models-header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #323941;
+  padding-top: 80px;
+}
+
+.other-models-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  align-items: center;
+  text-align: center;
+  color: #323941;
+  padding: 20px;
+}
+
+.other-models-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  row-gap: 60px;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  margin: 20px auto;
+}
+
+.other-models-cell {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+  width: 240px;
+  height: 300px;
+  padding: 20px;
+}
+
+.other-models-subcell-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.other-models-subcell-model {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 237px;
+  height: 45px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #323941;
+}
+
+.other-models-subcell-price {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #323941;
+  margin: 10px;
+}
+
+.other-models-subcell-more-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 129px;
+  height: 42px;
+  border: 1px solid #C6C6C6;
+}
+
+.question-cell {
+  border: 3px solid #009EFF;
+}
+
+.other-models-subcell-question {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 237px;
+  height: 67px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #323941;
+  margin: 5px;
+}
+
+.other-models-subcell-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 237px;
+  height: 67px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #323941;
+  margin: 5px;
+}
+
+.other-models-subcell-contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.other-models-subcell-contacts input {
+  border: none;
+  background: none;
+  width: 120px;
+}
+
+.other-models-subcell-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.other-models-subcell-name input {
+  border: none;
+  background: none;
+  width: 140px;
+}
+
+.other-models-subcell-send {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 129px;
+  height: 42px;
+}
+
+.other-models-subcell-send button {
+  width: 129px;
+  height: 42px;
+  background: none;
+  border: 1px solid #C6C6C6;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 119.3%;
+  align-items: center;
+  text-align: center;
+  margin-top: 5px;
+}
+
 
 .bottom-space {
   width: 1376px;
