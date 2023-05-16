@@ -47,6 +47,7 @@ body {
 .top-navigation-menu-item {
   margin: 0px 16px;
   padding: 0;
+  white-space: nowrap;
 }
 
 
